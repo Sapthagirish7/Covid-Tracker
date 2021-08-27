@@ -30,7 +30,7 @@ export const fetchData = async (country) => {
             return modifiedData;
     
         } catch(error){
-            
+            return error;
         }
 }
 
